@@ -51,18 +51,18 @@ Examples of unacceptable behavior include:
 * Trolling, insulting or derogatory comments, and personal or political attacks
   
 
-If you have questions or concerns about these issues please feel free to contact [REQUIRES CONTACT POINTS] and share your opinions and suggestions.
+If you have questions or concerns about these issues please feel free to contact neurocausal@gmail.com and share your opinions and suggestions.
 
 ## Reporting
 
 
-If you are being harassed by a member of our community, notice that someone else is being harassed, or have any other concerns, please contact the administrators via  [REQUIRES CONTACT POINTS]. If the person who is harassing you is on the project collaborations team, they will not be involved in handling or resolving the incident.
+If you are being harassed by a member of our community, notice that someone else is being harassed, or have any other concerns, please contact the administrators via our email address neurocausal@gmail.com, or [Mattermost channel](https://mattermost.brainhack.org/brainhack/channels/neurocausal) or directly reaching the maintainers Valentina Borghesani (@valentinaborghesani) or Isil Bilgin (@isil) at [Mattermost Brainhack public forum](https://mattermost.brainhack.org/brainhack/). If the person who is harassing you is on the project collaborations team, they will not be involved in handling or resolving the incident.
 
-The admin team will respond to any complaint as promptly as possible we can. If you do not get a timely response (for example, if no admins are currently online) then please put your personal safety and well-being first, and consider logging out and/or contacting the admins by email at [EMAIL ADDRESS HERE].
+The admin team will respond to any complaint as promptly as possible we can. If you do not get a timely response (for example, if no admins are currently online) then please put your personal safety and well-being first, and consider logging out and/or contacting the admins by email at neurocausal@gmail.com.
 
 This Code of Conduct applies to our community's spaces, but if you are being harassed by a member of our community outside our spaces, we still want to know about it. We will take all good-faith reports of harassment by our members, especially the administrators, seriously. This includes harassment outside our spaces and harassment that took place at any point in time. The abuse team reserves the right to exclude people from the community based on their past behavior, including behavior outside of our spaces and behavior towards people who are not in this community.
 
-In order to protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response.
+In order to protect volunteers from abuse and burnout, we reserve the right to reject any report we believe to have been made in bad faith. Reports intended to silence legitimate criticism may be deleted without response. 
 
 
 ## Enforcement Responsibilities
