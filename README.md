@@ -1,2 +1,3 @@
 # neurocausal
-The base code regarding the neurocausal tool. 
+
+The base code of neurocausal 
