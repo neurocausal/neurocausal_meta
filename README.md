@@ -5,7 +5,9 @@
 
 The base code of NeuroCausal, a platform for meta-analysis of the neuropsychological data inspired by [NeuroQuery](https://github.com/neuroquery/neuroquery).
 
-Given a cognitive/psychological term (e.g. face processing), it produces a brain map of the brain area whose integrity is necessary to enable such processe/representation (e.g. a lesio in that area would lead to prosopagnosia).
+Given a cognitive/psychological term (e.g. face processing), it produces a brain map of the brain area whose integrity is necessary to enable such processe/representation (e.g. a lesion in that area would lead to prosopagnosia).
+
+If you would like to know more about our mission and goals, please read [our blogposts](https://neurocausal.github.io/posts/)
 
 
 ## Getting started
@@ -24,6 +26,13 @@ TBD
 
 TBD
 
+### Acnkoledgmens 
+We wound't be here without 
+* the terrific [OLS program](https://openlifesci.org/)
+* our brilliant and geneorus mentor, Sara El-Gebali @selgebali
+* the tools we are building upon: [Neurosynth, Neuroquery, Neurovault, & CognitiveAtlas](https://neurocausal.github.io/#accomplishments)
+* the [Brainhack community](https://brainhack.org/)
+
 ### Get in touch
 
 You can get in touch with us *coming soon*
@@ -36,11 +45,12 @@ Please check our [Guidelines for Contributors](https://github.com/neurocausal/ne
 Recurring every **Monday** 12:00-1:00 EDT 
 
 #### **Join zoom:**
-coming soon
+Meeting ID: 898 4780 8975
+Passcode: 074971
 
 #### **Schedule:**
 
-Pomodoro clock: https://cuckoo.team/DC-coworking 
+Pomodoro clock: https://cuckoo.team/neurocausal
 
 | Duration | Activity |
 | ---- | -------- |
