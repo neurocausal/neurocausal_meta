@@ -24,7 +24,7 @@ TBD
 
 TBD
 
-### Get in touch & co-working
+### Get in touch
 
 You can get in touch with us *coming soon*
 
