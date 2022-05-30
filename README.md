@@ -23,3 +23,11 @@ TBD
 ### Usage
 
 TBD
+
+### Get in tough & co-working
+
+You can get in touch with us *coming soon*
+
+Please check our [Guidelines for Contributors](https://github.com/neurocausal/neurocausal/blob/main/contribution_guidelines.md)
+
+Co-workings hours *coming soon*
