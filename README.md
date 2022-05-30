@@ -24,10 +24,29 @@ TBD
 
 TBD
 
-### Get in tough & co-working
+### Get in touch & co-working
 
 You can get in touch with us *coming soon*
 
 Please check our [Guidelines for Contributors](https://github.com/neurocausal/neurocausal/blob/main/contribution_guidelines.md)
 
-Co-workings hours *coming soon*
+### Co-workings hours 
+
+#### **Date & Time:** 
+Recurring every **Monday** 12:00-1:00 EDT 
+
+#### **Join zoom:**
+coming soon
+
+#### **Schedule:**
+
+Pomodoro clock: https://cuckoo.team/DC-coworking 
+
+| Duration | Activity |
+| ---- | -------- |
+| Start | 👋 Welcome |
+| 5 mins | Introductions and personal goal setting |
+| 20 mins | 🍅 1st Pomodoro session |
+| 5 mins | ☕️ Break and report out |
+| 20 mins | 🍅 2nd Pomodoro session |
+| 10 mins | 🎤 Discussions & shared insights |
