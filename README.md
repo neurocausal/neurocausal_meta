@@ -1,7 +1,7 @@
 ##### Disclaimer: this is a work in progress! Bear with us as we grow together :)
 
 
-# NeuroCausal
+# NeuroCausal: meta-analysis
 
 The base code of NeuroCausal, a platform for meta-analysis of the neuropsychological data inspired by [NeuroQuery](https://github.com/neuroquery/neuroquery).
 
