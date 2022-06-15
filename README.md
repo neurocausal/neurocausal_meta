@@ -12,32 +12,42 @@ If you would like to know more about our mission and goals, please read [our blo
 
 ## Getting started
 
-TBD
+Please check our [Guidelines for Contributors](https://github.com/neurocausal/neurocausal/blob/main/contribution_guidelines.md). This guideline is currently under construction and soon will have necessary details regarding the technical aspect of the package too!
 
 ### Dependencies
 
-TBD
+The development of the NeuroCausal meta-analysis pipeline will be built on [NeuroQuery](https://github.com/neuroquery/neuroquery) metaanalysis and [NeuroQuery Data Collection](https://github.com/neuroquery/nqdc) packages. 
 
 ### Installation
+We would like you to install both NeuroQuery packages by following the commands below:
 
-TBD
+To install the main repo version of the NQDC, type
+
+`pip install git+https://github.com/neuroquery/nqdc.git`
+
+To install the NeuroQuery type 
+
+`pip install neuroquery`
+
+The packages will install additional packages listed in their requirement lists they list in their repository what NeuroCausal will be also sticking with. 
+
+If you do not want the versions of the listed packages in your codebase to change you can also create a new conda environment following the instructions [here](https://github.com/neurocausal/neurocausal_meta/#setting_up_a_conda_virtual_environment.md)
 
 ### Usage
 
-TBD
+Querying, downloading, and filtering the openly accessible clinical publications and metaanalysis of the brain functioning associated with the clinical cases.
 
-### Acnkoledgmens 
-We wound't be here without 
+### Acknowledgments 
+We wouldn't be here without 
 * the terrific [OLS program](https://openlifesci.org/)
-* our brilliant and geneorus mentor, Sara El-Gebali @selgebali
+* our brilliant and generous mentor, Sara El-Gebali @selgebali
 * the tools we are building upon: [Neurosynth, Neuroquery, Neurovault, & CognitiveAtlas](https://neurocausal.github.io/#accomplishments)
 * the [Brainhack community](https://brainhack.org/)
 
 ### Get in touch
 
-You can get in touch with us *coming soon*
+[Mattermost Channel](https://mattermost.brainhack.org/brainhack/channels/neurocausal)
 
-Please check our [Guidelines for Contributors](https://github.com/neurocausal/neurocausal/blob/main/contribution_guidelines.md)
 
 ### Co-workings hours 
 
