@@ -20,7 +20,7 @@ def search_clinical_vocab(row, vocab):
         n_matches += bool(regex.search(word, full_text))
         if n_matches > THRESHOLD:
             return True
-    return n_matches > THRESHOLD
+    return False
 
 
 def main(args):
