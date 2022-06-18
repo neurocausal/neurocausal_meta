@@ -1,0 +1,5 @@
+# Ignore input files
+nq_data/
+
+# Ignore input files
+*.csv

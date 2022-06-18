@@ -1,0 +1,38 @@
+VBM
+VLSM
+SBM
+voxel-based morphometry
+voxel-lesion symptom mapping
+surface-based morphometry
+peak coordinates
+Broadmann areas
+brain regions
+brain areas 
+brain maps
+regions of interest
+ROI
+lesions
+cluster 
+tissue
+free surfer 
+surface
+thickness
+volume 
+gyrus
+gray matter
+white matter
+GM
+WM
+cortical area
+subcortical area
+Picks atlas
+Harvard-Oxford atlas
+AAL
+Automated anatomic labelling 
+FSL
+Desikan-Killiany Atlas
+DK40 Atlas
+Human Connectome Project
+HCP Multi-Modal Parcellation
+HCP
+Destrieux 2009 Atlas
