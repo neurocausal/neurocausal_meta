@@ -57,4 +57,10 @@ mapping
 syndrome
 traumatic
 tumor
-vascular 
+vascular
+VBM
+VLSM
+SBM
+voxel-based morphometry
+voxel-lesion symptom mapping
+surface-based morphometry
