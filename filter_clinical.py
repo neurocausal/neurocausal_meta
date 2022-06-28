@@ -10,12 +10,7 @@ import regex as re
 import argparse
 import pandas as pd
 
-
-
 VOC_PATH = "clinical_vocabulary.txt"
-SUM_THRESHOLD = 200 # minimal number of different words from the vocabulary to find in a paper to consider it clinical
-WORD_THRESHOLD = 10 # minimal number of different words from the vocabulary to find in a paper to consider it clinical
-
 
 def count_total_word_number(row):
     full_text = row["title"] + row["abstract"] + row["body"]
@@ -30,9 +25,7 @@ def count_clinical_words(row, word):
         return n_matches
     else:
          return 0
-    
 
-    
     
 def search_clinical_vocab(row, vocab, word_thr, sum_thr):   
     n_matches = 0
@@ -61,7 +54,6 @@ def main(args):
     with open(VOC_PATH, "r") as file:
         vocab = file.readlines()
         vocab = [word.rstrip() for word in vocab]
-        vocab_string = [str(word) for word in vocab]
     texts_df["is_paper_clinical"] = texts_df.apply(
         search_clinical_vocab, axis=1, args=(vocab, word_thr, sum_thr))
     print('Selection is done')
@@ -80,12 +72,10 @@ def main(args):
      count_total_word_number, axis=1)
     texts_df["total_word_count"] = total_word_number
     
-    texts_df["is_ratio_above_term_threshold"] = texts_df.apply(
-        density_of_clinical_terms, axis=1, args=(total_sum,))
     
     header = ["pmcid", "is_paper_clinical"] + \
-        vocab_string + ["total_term_count",
-                        "total_word_count", "is_ratio_above_term_threshold"]
+        vocab + ["total_term_count",
+                        "total_word_count"]
     texts_df.to_csv(out_path, columns=header)
     print(f"Results saved in {out_path}")
     
@@ -96,6 +86,8 @@ if __name__ == "__main__":
                         help="Path to the text.csv file containing the text of the paper from the nqdc extraction.")
     parser.add_argument("--word_threshold", "-w", type=int, required=True,
                         help="The threshold for the single keyword's appearance in a text.")
+    parser.add_argument("--vocabulary", "-v", type=str, required=True,
+                        help="The vocabulary required for the search in the text.")
     parser.add_argument("--sum_threshold", "-s", type=int, required=True,
                         help="The threshold for total number of keyword appearances in a text.")
     parser.add_argument("--out_path", "-o", type=str,
