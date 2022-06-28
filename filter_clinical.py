@@ -10,7 +10,6 @@ import regex as re
 import argparse
 import pandas as pd
 
-VOC_PATH = "clinical_vocabulary.txt"
 
 def count_total_word_number(row):
     full_text = row["title"] + row["abstract"] + row["body"]
@@ -48,10 +47,11 @@ def main(args):
     print("Read {} lines".format(len(texts_df)))
     word_thr = args.word_threshold
     sum_thr = args.sum_threshold
+    vocab_path= args.vocabulary
     out_path = args.out_path if args.out_path is not None else args.text_csv.replace(
         "text.csv", "clinical.csv")
     print('Selection is running...')
-    with open(VOC_PATH, "r") as file:
+    with open(vocab_path, "r") as file:
         vocab = file.readlines()
         vocab = [word.rstrip() for word in vocab]
     texts_df["is_paper_clinical"] = texts_df.apply(
