@@ -13,7 +13,7 @@ brain areas
 brain maps
 regions of interest
 ROI
-lesions
+lesion
 cluster 
 tissue
 free surfer 
