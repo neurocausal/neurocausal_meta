@@ -60,7 +60,7 @@ def estimate_counts(vocab, texts_df):
      count_total_word_number, axis=1)
     
     texts_df["total_word_count"] = total_word_number
-    print("total word count {}". format(texts_df.loc[0].at["total_word_count"]) ) 
+    #print("total word count {}". format(texts_df.loc[0].at["total_word_count"])  
     return texts_df
 
 
@@ -98,13 +98,15 @@ def main(args):
     print('Clinical word counts are estimating...')
     texts_df = estimate_counts(clinical_vocab, texts_df)
     print('Clinical word counts are extracted.')
-
     
-    header = ["pmcid", "is_paper_clinical"] + clinical_vocab + ["total_term_count","total_word_count"]
+    texts_df["is_clinical_word_appearance_above_threshold"]  = texts_df.apply(density_of_clinical_terms, axis=1)
+    print('Clinical word counts are estimated.')
+    
+    header = ["pmcid", "is_paper_clinical"] + clinical_vocab + ["total_term_count","total_word_count","is_clinical_word_appearance_above_threshold"]
     texts_df.to_csv(out_clinical_path, columns=header)
     print(f"Results saved in {out_clinical_path}")
 
-    
+
     # Among the papers identified as clinical, search the technical term
     # occurrence.
     print('Technical word counts are estimating...')
@@ -114,7 +116,8 @@ def main(args):
     
     texts_df = texts_df[texts_df.is_paper_clinical == True]
     texts_df = estimate_counts(tech_vocab, texts_df)
-    texts_df["is_technical_word_appearance_above_threshold"]  = texts_df.apply(density_of_clinical_terms, axis=1)
+    texts_df["is_technical_word_appearance_above_threshold"] = texts_df.apply(
+        density_of_clinical_terms, axis=1)
     print('Technical word counts are estimated.')
 
 
