@@ -51,6 +51,9 @@ We wouldn't be here without
 
 ### Co-workings hours 
 
+#### **Notes:** 
+https://hackmd.io/@IsilBilgin/B1ljxcMuc
+
 #### **Date & Time:** 
 Recurring every **Monday** 12:00-1:00 EDT 
 
@@ -58,7 +61,7 @@ Recurring every **Monday** 12:00-1:00 EDT
 Meeting ID: 898 4780 8975
 Passcode: 074971
 
-#### **Schedule:**
+#### **(tentative) Schedule:**
 
 Pomodoro clock: https://cuckoo.team/neurocausal
 
