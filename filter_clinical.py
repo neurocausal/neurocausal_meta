@@ -6,7 +6,7 @@ Created on Fri June 17 11:47:46 2022
 @author: IsilBilgin
 """
 '''
-The usage of the call is python filter_clinical_all.py --text_csv meta_analysis.csv  --sum_threshold 200 --out_clinical_path metadata_clinical_all.csv --out_technical_path metadata_technical_all.csv
+The usage of the call is python filter_clinical.py --text_csv meta_analysis.csv  --out_clinical_path metadata_clinical_all.csv --out_technical_path metadata_technical_all.csv
 '''
 
 from math import floor
