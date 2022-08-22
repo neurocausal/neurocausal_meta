@@ -5,10 +5,6 @@ Created on Fri June 17 11:47:46 2022
 @author: FrancoisPgm
 @author: IsilBilgin
 """
-'''
-The usage of the call is python filter_clinical.py --text_csv meta_analysis.csv  --out_clinical_path metadata_clinical_all.csv --out_technical_path metadata_technical_all.csv
-'''
-
 from math import floor
 import regex as re
 import argparse
@@ -72,6 +68,7 @@ def main(args):
     print('Reading file')
     texts_df = pd.read_csv(args.text_csv).fillna("")
     #print("Read {} lines".format(len(texts_df)))
+    sum_thr = args.sum_threshold
     out_clinical_path = args.out_clinical_path if args.out_clinical_path is not None else args.text_csv.replace(
         "text.csv", "clinical.csv")
     out_technical_path = args.out_technical_path if args.out_technical_path is not None else args.text_csv.replace(
@@ -123,6 +120,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--text_csv", "-t", type=str, required=True,
                         help="Path to the text.csv file containing the text of the paper from the nqdc extraction.")
+    parser.add_argument("--sum_threshold", "-s", type=int, required=True,
+                        help="The threshold for total number of keyword appearances in a text.")
     parser.add_argument("--out_clinical_path", "-oc", type=str,
                         help="Output path for the csv file containing the pmcid and whether the paper is clinical.")
     parser.add_argument("--out_technical_path", "-ot", type=str,
