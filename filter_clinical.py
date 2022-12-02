@@ -164,7 +164,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--text_csv", "-t", type=str, required=True,
                         help="Path to the text.csv file containing the text "
-                             "of the paper from the nqdc extraction.")
+                             "of the paper from the pubget extraction.")
     parser.add_argument("--out_clinical_path", "-oc", type=str,
                         help="Output path for the csv file containing the "
                              "pmcid and whether the paper is clinical.")

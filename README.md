@@ -16,18 +16,18 @@ Please check our [Guidelines for Contributors](https://github.com/neurocausal/ne
 
 ### Dependencies
 
-The development of the NeuroCausal meta-analysis pipeline will be built on [NeuroQuery](https://github.com/neuroquery/neuroquery) metaanalysis and [NeuroQuery Data Collection](https://github.com/neuroquery/nqdc) packages. 
+The development of the NeuroCausal meta-analysis pipeline will be built on [NeuroQuery](https://github.com/neuroquery/neuroquery) metaanalysis and [pubget](https://github.com/neuroquery/pubget) packages. 
 
 ### Installation
 We would like you to install both NeuroQuery packages by following the commands below:
 
-To install the main repo version of the NQDC, type
+To install the main repo version of the `pubget`, type
 
-`pip install git+https://github.com/neuroquery/nqdc.git`
+`pip install git+https://github.com/neuroquery/pubget.git`
 
 To install the NeuroQuery type 
 
-`pip install neuroquery`
+`pip install pubget`
 
 The packages will install additional packages listed in their requirement lists they list in their repository what NeuroCausal will be also sticking with. 
 

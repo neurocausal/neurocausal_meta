@@ -1,5 +1,5 @@
 conda
-nqdc
+pubget
 neuroquery
 nilearn
 sklearn
